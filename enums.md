@@ -1,13 +1,13 @@
 # Enums
-####What?
+#### What?
 - Enums represent mutable choices as immutable tokens 
 - Used when there are a limited number of fixed values to represent
 - For Example: Months, States, DaysOfWeek, Seasons, ...
 
-####Why?
+#### Why?
 - Using string literals as tokens leads to bugs when tokens are misspelled
   
-####How?
+#### How?
 - Example:
 ```
 const weekdays = {
@@ -20,7 +20,7 @@ const weekdays = {
 ```
 - Upper case is suggested for tokens
 
-####Usage
+#### Usage
 - Often used in switch-case statements
 ```
 switch (key_value) {
